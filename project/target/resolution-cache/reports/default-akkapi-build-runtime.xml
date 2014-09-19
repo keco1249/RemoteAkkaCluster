@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="akkapi-build"
+		revision="0.1-SNAPSHOT"
+		extra-sbtVersion="0.13"
+		extra-scalaVersion="2.10"
+		conf="runtime"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20140918183607"/>
+	<dependencies>
+		<module organisation="com.typesafe.akka" name="akka-sbt-plugin">
+			<revision name="2.2.3" status="release" pubdate="20131023141505" resolver="sbt-chain" artresolver="sbt-chain" extra-sbtVersion="0.13" extra-scalaVersion="2.10" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="1">
+				<metadata-artifact status="no" details="" size="1443" time="0" location="/Users/kcolin14/.ivy2/cache/scala_2.10/sbt_0.13/com.typesafe.akka/akka-sbt-plugin/ivy-2.2.3.xml" searched="false" origin-is-local="false" origin-location="http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.akka/akka-sbt-plugin/scala_2.10/sbt_0.13/2.2.3/ivys/ivy.xml"/>
+				<caller organisation="default" name="akkapi-build" conf="compile, runtime" rev="2.2.3" rev-constraint-default="2.2.3" rev-constraint-dynamic="2.2.3" callerrev="0.1-SNAPSHOT" extra-sbtVersion="0.13" extra-scalaVersion="2.10"/>
+				<artifacts>
+					<artifact name="akka-sbt-plugin" type="jar" ext="jar" status="no" details="" size="60833" time="0" location="/Users/kcolin14/.ivy2/cache/scala_2.10/sbt_0.13/com.typesafe.akka/akka-sbt-plugin/jars/akka-sbt-plugin-2.2.3.jar">
+						<origin-location is-local="false" location="http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.akka/akka-sbt-plugin/scala_2.10/sbt_0.13/2.2.3/jars/akka-sbt-plugin.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.spray" name="sbt-revolver">
+			<revision name="0.7.1" status="release" pubdate="20130729170823" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/spray/sbt-revolver" extra-sbtVersion="0.13" extra-scalaVersion="2.10" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="0">
+				<license name="Apache License 2.0" url="https://github.com/spray/sbt-revolver/raw/master/LICENSE"/>
+				<metadata-artifact status="no" details="" size="2007" time="0" location="/Users/kcolin14/.ivy2/cache/scala_2.10/sbt_0.13/io.spray/sbt-revolver/ivy-0.7.1.xml" searched="false" origin-is-local="false" origin-location="http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/io.spray/sbt-revolver/scala_2.10/sbt_0.13/0.7.1/ivys/ivy.xml"/>
+				<caller organisation="default" name="akkapi-build" conf="compile, runtime" rev="0.7.1" rev-constraint-default="0.7.1" rev-constraint-dynamic="0.7.1" callerrev="0.1-SNAPSHOT" extra-sbtVersion="0.13" extra-scalaVersion="2.10"/>
+				<artifacts>
+					<artifact name="sbt-revolver" type="jar" ext="jar" status="no" details="" size="104892" time="0" location="/Users/kcolin14/.ivy2/cache/scala_2.10/sbt_0.13/io.spray/sbt-revolver/jars/sbt-revolver-0.7.1.jar">
+						<origin-location is-local="false" location="http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/io.spray/sbt-revolver/scala_2.10/sbt_0.13/0.7.1/jars/sbt-revolver.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
